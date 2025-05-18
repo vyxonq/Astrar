@@ -1,8 +1,14 @@
 {
   "whitelist": [
-    { "userId": 7377110745, "hwid": "7377110745_PC_vxonhub" }
+    {
+      "userId": 7377110745,
+      "hwid": "7377110745_PC_vxonhub"
+    }
   ],
   "blacklist": [
-    { "userId": 1, "hwid": "" }
+    {
+      "userId": 1,
+      "hwid": ""
+    }
   ]
 }
