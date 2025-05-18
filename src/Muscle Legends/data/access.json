@@ -24,7 +24,7 @@
   "blacklist": [
     {
       "userId": 1,
-      "hwid": ""
+      "hwid": "1"
     }
   ]
 }
