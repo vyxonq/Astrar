@@ -1,34 +1,106 @@
 {
-  "whitelist": [
-    {
-      "userId": 7377110745,
-      "hwid": "5470117737_Astrar.dev_1337"
-    },
-    {
-      "userId": 2412582721,
-      "hwid": "1272852142_Astrar.dev_1337"
-    },
-    {
-      "userId": 4751887553,
-      "hwid": "3557881574_Astrar.dev_1337"
-    },
-    {
-      "userId": 2656352954,
-      "hwid": "4592536562_Astrar.dev_1337"
-    },
-    {
-      "userId": 4638054865,
-      "hwid": "5684508364_Astrar.dev_1337"
-    },
-    {
-      "userId": 4253743839,
-      "hwid": "9383473524_Astrar.dev_1337"
-    }
-  ],
-  "blacklist": [
-    {
-      "userId": 1,
-      "hwid": "1"
-    }
-  ]
+    "whitelist": [
+        {
+            "userId": 7377110745,
+            "hwid": "5470117737_Astrar.dev_1337"
+        },
+        {
+            "userId": 2412582721,
+            "hwid": "1272852142_Astrar.dev_1337"
+        },
+        {
+            "userId": 4751887553,
+            "hwid": "3557881574_Astrar.dev_1337"
+        },
+        {
+            "userId": 2656352954,
+            "hwid": "4592536562_Astrar.dev_1337"
+        },
+        {
+            "userId": 4638054865,
+            "hwid": "5684508364_Astrar.dev_1337"
+        },
+        {
+            "userId": 4253743839,
+            "hwid": "9383473524_Astrar.dev_1337"
+        },
+        {
+            "userId": 1179279665,
+            "hwid": "5669729711_Astrar.dev_1337"
+        },
+        {
+            "userId": 1178510017,
+            "hwid": "7100158711_Astrar.dev_1337"
+        },
+        {
+            "userId": 7377110745,
+            "hwid": "5470117737_Astrar.dev_1337"
+        },
+        {
+            "userId": 5501220047,
+            "hwid": "7400221055_Astrar.dev_1337"
+        },
+        {
+            "userId": 2815154822,
+            "hwid": "2284515182_Astrar.dev_1337"
+        },
+        {
+            "userId": 3884730023,
+            "hwid": "3200374883_Astrar.dev_1337"
+        },
+        {
+            "userId": 3294163122,
+            "hwid": "2213614923_Astrar.dev_1337"
+        },
+        {
+            "userId": 1184261247,
+            "hwid": "7421624811_Astrar.dev_1337"
+        },
+        {
+            "userId": 1773186022,
+            "hwid": "2206813771_Astrar.dev_1337"
+        },
+        {
+            "userId": 3664027582,
+            "hwid": "2857204663_Astrar.dev_1337"
+        },
+        {
+            "userId": 357773806,
+            "hwid": "608377753_Astrar.dev_1337"
+        },
+        {
+            "userId": 1992531036,
+            "hwid": "6301352991_Astrar.dev_1337"
+        },
+        {
+            "userId": 1510348891,
+            "hwid": "1988430151_Astrar.dev_1337"
+        },
+        {
+            "userId": 2494714771,
+            "hwid": "1774174942_Astrar.dev_1337"
+        },
+        {
+            "userId": 3706292605,
+            "hwid": "5062926073_Astrar.dev_1337"
+        },
+        {
+            "userId": 2664725473,
+            "hwid": "3745274662_Astrar.dev_1337"
+        },
+        {
+            "userId": 2215148954,
+            "hwid": "4598415122_Astrar.dev_1337"
+        },
+        {
+            "userId": 2733613033,
+            "hwid": "3303163372_Astrar.dev_1337"
+        }
+    ],
+    "blacklist": [
+        {
+            "userId": 1,
+            "hwid": "1"
+        }
+    ]
 }
