@@ -95,12 +95,16 @@
         {
             "userId": 2733613033,
             "hwid": "3303163372_Astrar.dev_1337"
+        },
+        {
+            "userId": 8418459654,
+            "hwid": "4569564818_Astrar.dev_1337"
         }
     ],
     "blacklist": [
         {
-            "userId": 1,
-            "hwid": "1"
+            "userId": 0,
+            "hwid": ""
         }
     ]
 }
