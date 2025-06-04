@@ -105,6 +105,12 @@
         {
             "userId": 808028355,
             "hwid": "553820808_Astrar.dev_1337"
+        },
+        {
+            "userId": 8369155885,
+            "license": "WGLHM-N8WONA-MMP3A",
+            "hwid": "5885519638_Astrar.dev_1337",
+            "expires": "2025-07-04"
         }
     ],
     "blacklist": [
