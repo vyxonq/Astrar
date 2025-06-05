@@ -111,7 +111,14 @@
             "hwid": "5885519638_Astrar.dev_1337",
             "license": "WGLHM-N8WONA-MMP3A",
             "expires": "2025-07-04"
+        },
+        {
+            "userId": 477284609,
+            "hwid": "906482774_Astrar.dev_1337",
+            "license": "FOCT1-MNRY3-25STD",
+            "expires": "2025-06-10"
         }
+
     ],
     "blacklist": [
         {
