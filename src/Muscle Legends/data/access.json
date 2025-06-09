@@ -117,8 +117,13 @@
             "hwid": "906482774_Astrar.dev_1337",
             "license": "FOCT1-MNRY3-25STD",
             "expires": "2025-06-10"
+        },
+        {
+            "userId": 731664318,
+            "hwid": "813466137_Astrar.dev_1337",
+            "license": "T1FRHH-O5U7-GOHSL",
+            "expires": "2026-06-10"
         }
-
     ],
     "blacklist": [
         {
