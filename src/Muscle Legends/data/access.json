@@ -66,6 +66,8 @@
       "hwid": "9294754942_Astrar.dev_1337",
       "license": "pc4m4z4-jy17-jb87w-3pjoi",
       "expires": "2026-06-11"
+    },
+    {"userId": 8555795172,"hwid": "2715975558_Astrar.dev_1337", "license": "zmtr-7bbez1-ss0i-z6z34","expires": "2025-06-15"
     }
   ],
   "blacklist": [{ "userId": 0, "hwid": "" }]
