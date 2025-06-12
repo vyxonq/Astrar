@@ -1,14 +1,9 @@
 {
   "whitelist": [
     { "userId": 7377110745, "hwid": "5470117737_Astrar.dev_1337" },
-    { "userId": 2412582721, "hwid": "1272852142_Astrar.dev_1337" },
-    { "userId": 4751887553, "hwid": "3557881574_Astrar.dev_1337" },
-    { "userId": 2656352954, "hwid": "4592536562_Astrar.dev_1337" },
     { "userId": 4638054865, "hwid": "5684508364_Astrar.dev_1337" },
-    { "userId": 4253743839, "hwid": "9383473524_Astrar.dev_1337" },
     { "userId": 1179279665, "hwid": "5669729711_Astrar.dev_1337" },
     { "userId": 1178510017, "hwid": "7100158711_Astrar.dev_1337" },
-    { "userId": 7377110745, "hwid": "5470117737_Astrar.dev_1337" },
     { "userId": 5501220047, "hwid": "7400221055_Astrar.dev_1337" },
     { "userId": 2815154822, "hwid": "2284515182_Astrar.dev_1337" },
     { "userId": 3884730023, "hwid": "3200374883_Astrar.dev_1337" },
@@ -70,5 +65,11 @@
     {"userId": 8555795172,"hwid": "2715975558_Astrar.dev_1337", "license": "zmtr-7bbez1-ss0i-z6z34","expires": "2025-06-15"
     }
   ],
-  "blacklist": [{ "userId": 0, "hwid": "" }]
+  "blacklist": [
+    { "userId": 2412582721, "hwid": "1272852142_Astrar.dev_1337" },
+    { "userId": 4751887553, "hwid": "3557881574_Astrar.dev_1337" },
+    { "userId": 2656352954, "hwid": "4592536562_Astrar.dev_1337" },
+    { "userId": 4253743839, "hwid": "9383473524_Astrar.dev_1337" },
+    { "userId": 1, "hwid": "1" }
+  ]
 }
