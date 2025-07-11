@@ -1,6 +1,6 @@
 --[[
-    Author: @iamvyxon
-    GitHub: https://github.com/iamvyxon
+    Author: @vyxonq
+    GitHub: https://github.com/vyxonq
 ]]
 
 local Loader = {}
@@ -101,23 +101,23 @@ local Config = {
         Public = {
             {
                 Name = "Astrar Public",
-                Url = "https://raw.githubusercontent.com/iamvyxon/Astrar-Public/refs/heads/main/src/Muscle%20Legends/Astrar-Public.lua"
+                Url = "https://raw.githubusercontent.com/vyxonq/Astrar-Public/refs/heads/main/src/Muscle%20Legends/Astrar-Public.lua"
             },
             {
                 Name = "Astrar (Paid Free)",
-                Url = "https://raw.githubusercontent.com/iamVyxon/Astrar/refs/heads/main/src/loader.lua"
+                Url = "https://raw.githubusercontent.com/vyxonq/Astrar/refs/heads/main/src/loader.lua"
             },
         },
         Paid = {
             {
                 Name = "AstrarVX (Paid New)",
-                Url = "https://raw.githubusercontent.com/iamvyxon/Astrar/refs/heads/main/AstrarXV/LoaderAstrarVX.luau"
+                Url = "https://raw.githubusercontent.com/vyxonq/Astrar/refs/heads/main/AstrarXV/LoaderAstrarVX.luau"
             }
         },
         Boosters = {
             {
                 Name = "AstrarVX (Booster Version)",
-                Url = "https://raw.githubusercontent.com/iamvyxon/Astrar/refs/heads/main/AstrarXV/LoaderAstrarVX-B.luau"
+                Url = "https://raw.githubusercontent.com/vyxonq/Astrar/refs/heads/main/AstrarXV/LoaderAstrarVX-B.luau"
             }
         }
     }
