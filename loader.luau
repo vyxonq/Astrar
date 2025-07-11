@@ -34,7 +34,9 @@ function Loader:_initUI()
     end
     self.window = win
     self.tabs = {
-        Scripts = win:AddTab({ Title = "Scripts", Icon = "list" }),
+        Public = win:AddTab({ Title = "Public", Icon = "globe" }),
+        Paid = win:AddTab({ Title = "Paid", Icon = "lock" }),
+        Boosters = win:AddTab({ Title = "Boosters", Icon = "zap" }),
         Info = win:AddTab({ Title = "Info", Icon = "info" })
     }
     print("[Script Loader] Tabs created.")
@@ -44,16 +46,21 @@ end
 
 function Loader:_addScriptButtons()
     local scripts = self.cfg.Scripts
-    for i = 1, #scripts do
-        local script = scripts[i]
-        self.tabs.Scripts:AddButton({
-            Title = script.Name,
-            Description = "Click to load " .. script.Name,
-            Tooltip = script.Url,
-            Callback = function()
-                self:_loadScript(script.Url)
+    for category, list in pairs(scripts) do
+        local tab = self.tabs[category]
+        if tab then
+            for i = 1, #list do
+                local script = list[i]
+                tab:AddButton({
+                    Title = script.Name,
+                    Description = "Click to load " .. script.Name,
+                    Tooltip = script.Url,
+                    Callback = function()
+                        self:_loadScript(script.Url)
+                    end
+                })
             end
-        })
+        end
     end
 end
 
@@ -91,13 +98,27 @@ local Config = {
         MinimizeKey = Enum.KeyCode.LeftControl
     },
     Scripts = {
-        {
-            Name = "Astrar Public",
-            Url = "https://raw.githubusercontent.com/iamvyxon/Astrar-Public/refs/heads/main/src/Muscle%20Legends/Astrar-Public.lua"
+        Public = {
+            {
+                Name = "Astrar Public",
+                Url = "https://raw.githubusercontent.com/iamvyxon/Astrar-Public/refs/heads/main/src/Muscle%20Legends/Astrar-Public.lua"
+            },
+            {
+                Name = "Astrar (Paid Free)",
+                Url = "https://raw.githubusercontent.com/iamVyxon/Astrar/refs/heads/main/src/loader.lua"
+            },
         },
-        {
-            Name = "Astrar V1",
-            Url = "https://raw.githubusercontent.com/iamVyxon/Astrar/refs/heads/main/src/loader.lua"
+        Paid = {
+            {
+                Name = "AstrarVX (Paid New)",
+                Url = "https://raw.githubusercontent.com/iamvyxon/Astrar/refs/heads/main/AstrarXV/LoaderAstrarVX.luau"
+            }
+        },
+        Boosters = {
+            {
+                Name = "AstrarVX (Booster Version)",
+                Url = "https://raw.githubusercontent.com/iamvyxon/Astrar/refs/heads/main/AstrarXV/LoaderAstrarVX-B.luau"
+            }
         }
     }
 }
